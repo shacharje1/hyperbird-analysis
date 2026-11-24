@@ -1,0 +1,301 @@
+{
+ "experiment": "Exp4_11032026 - 5 grape accessions x 7 powdery mildew isolates, leaf-disk assay (HyperBird V2)",
+ "notes": "Sample name = Accession_Leaf#_Isolate. Numbered isolates from Israel, G19 from NY. 258/281/287 = IL lineage (more aggressive), 288/300 = B lineage (less aggressive), 301 lineage unknown. No mock/uninoculated disks. Disk id = scan position (same name at every time point; 27 leaf names occur twice at 0-2 dpi, so id, not name, identifies a disk). Contrasts not yet agreed with the user.",
+ "name_regex": "^(?P<id>\\d+)_(?P<group>[^_]+)_(?P<rep>\\d+)_(?P<cond>[^_]+)$",
+ "aliases": {},
+ "display": {},
+ "series_format": "{group} {cond}",
+ "folders": [
+  {
+   "path": "Exp4_11032026_0dpi/raw",
+   "white": "Exp4_11032026_0dpi/raw/002_white.hdr",
+   "black": "Exp4_11032026_0dpi/raw/001_black.hdr",
+   "time": "0 dpi",
+   "analyse": true
+  },
+  {
+   "path": "Exp4_11032026_1dpi/raw",
+   "white": "Exp4_11032026_1dpi/raw/002_white.hdr",
+   "black": "Exp4_11032026_1dpi/raw/001_black.hdr",
+   "time": "1 dpi",
+   "analyse": true
+  },
+  {
+   "path": "Exp4_11032026_2dpi/raw",
+   "white": "Exp4_11032026_2dpi/raw/002_white.hdr",
+   "black": "Exp4_11032026_2dpi/raw/001_black.hdr",
+   "time": "2 dpi",
+   "analyse": true
+  },
+  {
+   "path": "Exp4_11032026_3dpi/raw",
+   "white": "Exp4_11032026_3dpi/raw/002_white.hdr",
+   "black": "Exp4_11032026_3dpi/raw/001_black.hdr",
+   "time": "3 dpi",
+   "analyse": true
+  },
+  {
+   "path": "Exp4_11032026_6dpi/raw",
+   "white": "Exp4_11032026_6dpi/raw/002_white.hdr",
+   "black": "Exp4_11032026_6dpi/raw/001_black.hdr",
+   "time": "6 dpi",
+   "analyse": true
+  }
+ ],
+ "times": [
+  "0 dpi",
+  "1 dpi",
+  "2 dpi",
+  "3 dpi",
+  "6 dpi"
+ ],
+ "groups": [
+  {
+   "series": "Chardonnay 258",
+   "label": "Chardonnay x 258 (IL)",
+   "treatment": "isolate 258",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "Chardonnay 281",
+   "label": "Chardonnay x 281 (IL)",
+   "treatment": "isolate 281",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "Chardonnay 287",
+   "label": "Chardonnay x 287 (IL)",
+   "treatment": "isolate 287",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "Chardonnay 288",
+   "label": "Chardonnay x 288 (B)",
+   "treatment": "isolate 288",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "Chardonnay 300",
+   "label": "Chardonnay x 300 (B)",
+   "treatment": "isolate 300",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "Chardonnay 301",
+   "label": "Chardonnay x 301 (unknown)",
+   "treatment": "isolate 301",
+   "inoculated": true,
+   "lineage": "unknown"
+  },
+  {
+   "series": "Chardonnay G19",
+   "label": "Chardonnay x G19 (NY)",
+   "treatment": "isolate G19",
+   "inoculated": true,
+   "lineage": "NY"
+  },
+  {
+   "series": "Karadzhandal 258",
+   "label": "Karadzhandal x 258 (IL)",
+   "treatment": "isolate 258",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "Karadzhandal 281",
+   "label": "Karadzhandal x 281 (IL)",
+   "treatment": "isolate 281",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "Karadzhandal 287",
+   "label": "Karadzhandal x 287 (IL)",
+   "treatment": "isolate 287",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "Karadzhandal 288",
+   "label": "Karadzhandal x 288 (B)",
+   "treatment": "isolate 288",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "Karadzhandal 300",
+   "label": "Karadzhandal x 300 (B)",
+   "treatment": "isolate 300",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "Karadzhandal 301",
+   "label": "Karadzhandal x 301 (unknown)",
+   "treatment": "isolate 301",
+   "inoculated": true,
+   "lineage": "unknown"
+  },
+  {
+   "series": "Karadzhandal G19",
+   "label": "Karadzhandal x G19 (NY)",
+   "treatment": "isolate G19",
+   "inoculated": true,
+   "lineage": "NY"
+  },
+  {
+   "series": "LateVavilov 258",
+   "label": "LateVavilov x 258 (IL)",
+   "treatment": "isolate 258",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "LateVavilov 281",
+   "label": "LateVavilov x 281 (IL)",
+   "treatment": "isolate 281",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "LateVavilov 287",
+   "label": "LateVavilov x 287 (IL)",
+   "treatment": "isolate 287",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "LateVavilov 288",
+   "label": "LateVavilov x 288 (B)",
+   "treatment": "isolate 288",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "LateVavilov 300",
+   "label": "LateVavilov x 300 (B)",
+   "treatment": "isolate 300",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "LateVavilov 301",
+   "label": "LateVavilov x 301 (unknown)",
+   "treatment": "isolate 301",
+   "inoculated": true,
+   "lineage": "unknown"
+  },
+  {
+   "series": "LateVavilov G19",
+   "label": "LateVavilov x G19 (NY)",
+   "treatment": "isolate G19",
+   "inoculated": true,
+   "lineage": "NY"
+  },
+  {
+   "series": "OlmoO35-11 258",
+   "label": "OlmoO35-11 x 258 (IL)",
+   "treatment": "isolate 258",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "OlmoO35-11 281",
+   "label": "OlmoO35-11 x 281 (IL)",
+   "treatment": "isolate 281",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "OlmoO35-11 287",
+   "label": "OlmoO35-11 x 287 (IL)",
+   "treatment": "isolate 287",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "OlmoO35-11 288",
+   "label": "OlmoO35-11 x 288 (B)",
+   "treatment": "isolate 288",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "OlmoO35-11 300",
+   "label": "OlmoO35-11 x 300 (B)",
+   "treatment": "isolate 300",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "OlmoO35-11 301",
+   "label": "OlmoO35-11 x 301 (unknown)",
+   "treatment": "isolate 301",
+   "inoculated": true,
+   "lineage": "unknown"
+  },
+  {
+   "series": "OlmoO35-11 G19",
+   "label": "OlmoO35-11 x G19 (NY)",
+   "treatment": "isolate G19",
+   "inoculated": true,
+   "lineage": "NY"
+  },
+  {
+   "series": "SochalKaraKash 258",
+   "label": "SochalKaraKash x 258 (IL)",
+   "treatment": "isolate 258",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "SochalKaraKash 281",
+   "label": "SochalKaraKash x 281 (IL)",
+   "treatment": "isolate 281",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "SochalKaraKash 287",
+   "label": "SochalKaraKash x 287 (IL)",
+   "treatment": "isolate 287",
+   "inoculated": true,
+   "lineage": "IL"
+  },
+  {
+   "series": "SochalKaraKash 288",
+   "label": "SochalKaraKash x 288 (B)",
+   "treatment": "isolate 288",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "SochalKaraKash 300",
+   "label": "SochalKaraKash x 300 (B)",
+   "treatment": "isolate 300",
+   "inoculated": true,
+   "lineage": "B"
+  },
+  {
+   "series": "SochalKaraKash 301",
+   "label": "SochalKaraKash x 301 (unknown)",
+   "treatment": "isolate 301",
+   "inoculated": true,
+   "lineage": "unknown"
+  },
+  {
+   "series": "SochalKaraKash G19",
+   "label": "SochalKaraKash x G19 (NY)",
+   "treatment": "isolate G19",
+   "inoculated": true,
+   "lineage": "NY"
+  }
+ ],
+ "contrasts": [],
+ "infection": {}
+}
